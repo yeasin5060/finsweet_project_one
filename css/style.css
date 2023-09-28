@@ -169,4 +169,94 @@ h1 h2 h3 h4 h5 h6 p {
      object-fit: cover;
 }
 
-/*======================== banner end =====================*//*# sourceMappingURL=style.css.map */
+/*======================== banner end =====================*/
+/*======================== wrok part start =====================*/
+#work {
+  padding: 128px 0 129px 0;
+  background: #F4F6FC;
+}
+#work .work_wrapper {
+  display: flex;
+  -moz-column-gap: 142px;
+       column-gap: 142px;
+}
+#work .work_wrapper .work_heading {
+  width: 405px;
+}
+#work .work_wrapper .work_heading h2 {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+#work .work_wrapper .work_heading p {
+  color: #282938;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#work .work_wrapper .work_heading span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2405F2;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+#work .work_wrapper .wrok_item_wrapper {
+  width: 656px;
+  margin-right: 77px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+#work .work_wrapper .wrok_item_wrapper .work_item {
+  width: 50%;
+}
+#work .work_wrapper .wrok_item_wrapper .work_item .work_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #2405F2;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+#work .work_wrapper .wrok_item_wrapper .work_item .work_box::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: #FCD980;
+  border-radius: 50%;
+  left: -10px;
+  bottom: -10px;
+}
+#work .work_wrapper .wrok_item_wrapper .work_item .work_box h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  line-height: 140%;
+}
+#work .work_wrapper .wrok_item_wrapper .work_item h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #1C1E53;
+  text-transform: capitalize;
+  line-height: 150%;
+  margin-bottom: 8px;
+}
+#work .work_wrapper .wrok_item_wrapper .work_item y p {
+  color: #1C1E53;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+/*======================== work part end =====================*//*# sourceMappingURL=style.css.map */

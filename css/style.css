@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+  line-height: 0.8;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/*======================== navbar start =====================*/
+#navbar {
+  padding: 30px 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+#navbar .nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar .nav_wrapper .navbar_logo {
+  width: 122px;
+  height: 28px;
+}
+#navbar .nav_wrapper .navbar_logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#navbar .nav_wrapper .navbar_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 48px;
+       column-gap: 48px;
+}
+#navbar .nav_wrapper .navbar_menu ul {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+#navbar .nav_wrapper .navbar_menu ul li a {
+  font-size: 16px;
+  font-weight: 18px;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+  line-height: 140%;
+  transition: all linear 0.3s;
+  position: relative;
+}
+#navbar .nav_wrapper .navbar_menu ul li a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 1px;
+  background: white;
+  left: 0;
+  bottom: -8px;
+  transition: all linear 0.3s;
+}
+#navbar .nav_wrapper .navbar_menu ul li a:hover::after {
+  width: 50%;
+}
+#navbar .nav_wrapper .navbar_menu .nav_btn {
+  display: flex;
+  align-items: center;
+}
+#navbar .nav_wrapper .navbar_menu .nav_btn a {
+  font-size: 16px;
+  font-weight: 18px;
+  color: white;
+  cursor: pointer;
+  padding: 16px 48px;
+  border: 2px solid #F4F6FC;
+  border-radius: 41px;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+
+/*======================== navbar end =====================*/
+/*======================== banner start =====================*/
+#banner {
+  padding: 218px 0 128px 0;
+  background: #1C1E53;
+}
+#banner .banner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+#banner .banner_wrapper .banner_heading {
+  width: 582px;
+}
+#banner .banner_wrapper .banner_heading h1 {
+  font-size: 54px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  line-height: 150%;
+  margin-bottom: 24px;
+}
+#banner .banner_wrapper .banner_heading p {
+  width: 562px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  line-height: 140%;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+#banner .banner_wrapper .banner_heading .banner_btn {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+#banner .banner_wrapper .banner_heading .banner_btn a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  padding: 16px 56px;
+  border: 1px solid #282938;
+  border-radius: 41px;
+  transition: all linear 0.3s;
+}
+#banner .banner_wrapper .banner_heading .banner_btn a:hover {
+  background-color: #FCD980;
+}
+#banner .banner_wrapper .banner_heading .banner_btn .banner_arrow a {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+#banner .banner_wrapper .banner_heading .banner_btn .banner_arrow a i {
+  color: white;
+  margin-left: 16px;
+}
+#banner .banner_wrapper .banner_image {
+  width: 638px;
+  height: 361px;
+}
+#banner .banner_wrapper .banner_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*======================== banner end =====================*//*# sourceMappingURL=style.css.map */

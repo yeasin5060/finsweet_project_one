@@ -395,7 +395,71 @@ h1 h2 h3 h4 h5 h6 p{
     }
 }
 /*======================== project part end =====================*/
-/*======================== project part start =====================*/
-/*======================== project part end =====================*/
+/*======================== design part start =====================*/
+#design{
+    padding: 128px 0;
+    background: #F4F6FC;
+    .design_heading{
+        width: 630px;
+        margin:  0 auto;
+        p{
+            width: 419px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            color: $black;
+            text-transform: capitalize;
+            line-height: 140%;
+            padding-bottom: 12px;
+            margin:0 auto;
+        }
+        h2{
+            width: 630px;
+            font-size: 48px;
+            font-weight: 600;
+            text-align: center;
+            color: $black;
+            line-height: 140%;
+            text-transform: capitalize;
+            margin-bottom: 47px;
+        }
+    }
+    .design_content_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 24px;
+        .design_contant{
+            width: 405px;
+            padding: 58px 32px 48px 48px;
+            background: $white;
+            -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            i{
+                font-size: 28px;
+                color: #2405F2;
+                margin-bottom: 23px;
+            }
+            h4{
+                width: 314px;
+                font-size:24px;
+                font-weight: 500;
+                color: $black;
+                text-transform: capitalize;
+                line-height: 150%;
+                margin-bottom: 24px
+            }
+            p{
+                width: 324px;
+                color: $black;
+                @include pera;
+            }
+        }
+    }
+}
+/*======================== design part end =====================*/
 /*======================== project part start =====================*/
 /*======================== project part end =====================*/

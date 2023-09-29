@@ -196,12 +196,17 @@ h1 h2 h3 h4 h5 h6 p{
                 margin-bottom: 16px;
                 @include pera;
             }
-            span{
+            a{
                 font-size: 18px;
                 font-weight: 500;
                 color: #2405F2;
+                cursor: pointer;
                 text-transform: capitalize;
                 line-height: 140%;
+                i{
+                    color: #2405F2;
+                    margin-left: 16px;
+                }
             }
         }
         .wrok_item_wrapper{
@@ -256,3 +261,141 @@ h1 h2 h3 h4 h5 h6 p{
     }
 }
 /*======================== work part end =====================*/
+/*======================== project part start =====================*/
+#project{
+    padding: 128px 0;
+    .project_heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        h2{
+            @include subheading;
+        }
+        a{
+            color:$black;
+            @include pera;
+            i{
+                color: $black;
+                margin-left: 16px;
+            }
+        }
+    }
+    .project_main{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        cursor: pointer;
+        .project_big_image{
+            width: 843px;
+            height: 600px;
+            overflow: hidden;
+            margin-top: 64px;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            &:hover .project_liyear{
+                left: 0;
+            }
+            .project_liyear{
+                position: absolute;
+                width: 396px;
+                height: 100%;
+                left: -396px;
+                top: 0;
+                z-index: 111;
+                background:linear-gradient(rgb(28, 30, 83),rgba(28, 30, 83, 0.459));
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                cursor: pointer;
+                padding: 312px 35px 76px 48px;
+                transition: all linear 0.3s;
+                h4{
+                    width: 313px;
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: $white;
+                    line-height: 140%;
+                    text-transform: capitalize;
+                    margin-bottom: 16px;
+                }
+                p{
+                    width: 293px;
+                    color: $white;
+                    margin-bottom: 40px;
+                    @include pera;
+                }
+                a{
+                    color:$hover;
+                    @include pera;
+                    i{
+                        color:$hover;
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
+        .project_small_project{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            row-gap: 32px;
+            width: 405;
+            cursor: pointer;
+            .project_small_image{
+                width: 100%;
+                height: 250px;
+                overflow: hidden;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                &:hover .small_image_liyear{
+                    left: 0;
+                }
+                .small_image_liyear{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background:linear-gradient(rgb(28, 30, 83),rgba(28, 30, 83, 0.459));
+                    left: -405px;
+                    top: 0;
+                    z-index: 111;
+                    padding: 129px 36px 45px 56px;
+                    transition: all linear 0.3s;
+                    h4{
+                        width: 250px;
+                        font-size: 24px;
+                        font-weight: 600;
+                        color: $white;
+                        line-height: 140%;
+                        text-transform: capitalize;
+                        margin-bottom: 16px;
+                    }
+                    a{
+                        color:$hover;
+                        cursor: pointer;
+                        @include pera;
+                        i{
+                            color:$hover;
+                            margin-left: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*======================== project part end =====================*/
+/*======================== project part start =====================*/
+/*======================== project part end =====================*/
+/*======================== project part start =====================*/
+/*======================== project part end =====================*/

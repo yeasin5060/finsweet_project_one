@@ -30,6 +30,13 @@ h1 h2 h3 h4 h5 h6 p{
     text-transform: capitalize;
     line-height: 150%;
 }
+@mixin miniheadig{
+    font-size: 38px;
+    font-weight: 600;
+    color: $black;
+    line-height: 150%;
+    text-transform: capitalize;
+}
 .container{
     width: 1280px;
     margin: 0 auto;
@@ -461,5 +468,144 @@ h1 h2 h3 h4 h5 h6 p{
     }
 }
 /*======================== design part end =====================*/
-/*======================== project part start =====================*/
-/*======================== project part end =====================*/
+/*======================== about part start =====================*/
+#about{
+    padding: 130px 0;
+    background: #F4F6FC;
+    border:2px solid #ECECF1;
+    .about_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 110px;
+        .about_head{
+            width: 337px;
+            h3{
+                @include miniheadig;
+                margin-bottom: 16px;
+            }
+            p{
+                color: $black;
+                @include pera;
+            }
+        }
+        .about_heading{
+            width: 843px;
+            h4{
+                font-size: 32px;
+                font-weight: 500;
+                color: $black;
+                line-height: 150%;
+                text-transform: capitalize;
+                margin-bottom: 48px;
+            }
+            .about_profile{
+                display: flex;
+                align-items: center;
+                column-gap: 14px;
+                .about_profile_image{
+                    width: 52px;
+                    height: 52px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .about_profile_name{
+                    h5{
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: $black;
+                        line-height: 140%;
+                        text-transform: capitalize;
+                    }
+                    p{
+                        font-size: 12px;
+                        font-weight: 500;
+                        color: $black;
+                        line-height: 140%;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}
+/*======================== about part end =====================*/
+/*======================== question part start =====================*/
+#question{
+    padding: 135px 0 128px 0;
+    background: $white;
+    .question_wrapper{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 109px;
+        .question_contant{
+            width: 332px;
+            h3{
+                @include miniheadig;
+                margin-bottom: 16px;
+            }
+            a{
+                color:#2405F2;
+                cursor: pointer;
+                @include pera;
+            }
+        }
+    }
+    .question_main{
+        width: 846px;
+        .question_item{
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            border-bottom:2px solid #ECECF1 ;
+            padding: 32px 0;
+            &:last-child{
+                border-bottom: none;
+            }
+            .question_info{
+                display: flex;
+                column-gap: 53px;
+                .question_number{
+                    span{
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 140%;
+                        color: #2405F2;
+                    }
+                }
+                .question_details{
+                    h4{
+                        font-size: 28px;
+                        font-weight: 600;
+                        color: $black;
+                        line-height: 140%;
+                        text-transform: capitalize;
+                        margin-bottom: 16px;
+                    }
+                    p{
+                        width: 624px;
+                        color: $black;
+                        @include pera;
+                        padding: 16px 25px 0 0;
+                    }
+                }
+            }
+            .question_icon{
+                i{
+                    font-size: 18px;
+                    color: $black;
+                    opacity: 0.7;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
+/*======================== question part end =====================*/
+/*======================== about part end =====================*/
+/*======================== about part end =====================*/

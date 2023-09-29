@@ -488,5 +488,160 @@ h1 h2 h3 h4 h5 h6 p {
 }
 
 /*======================== design part end =====================*/
-/*======================== project part start =====================*/
-/*======================== project part end =====================*//*# sourceMappingURL=style.css.map */
+/*======================== about part start =====================*/
+#about {
+  padding: 130px 0;
+  background: #F4F6FC;
+  border: 2px solid #ECECF1;
+}
+#about .about_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 110px;
+       column-gap: 110px;
+}
+#about .about_wrapper .about_head {
+  width: 337px;
+}
+#about .about_wrapper .about_head h3 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #282938;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+#about .about_wrapper .about_head p {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#about .about_wrapper .about_heading {
+  width: 843px;
+}
+#about .about_wrapper .about_heading h4 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+#about .about_wrapper .about_heading .about_profile {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 14px;
+       column-gap: 14px;
+}
+#about .about_wrapper .about_heading .about_profile .about_profile_image {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#about .about_wrapper .about_heading .about_profile .about_profile_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#about .about_wrapper .about_heading .about_profile .about_profile_name h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+#about .about_wrapper .about_heading .about_profile .about_profile_name p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+
+/*======================== about part end =====================*/
+/*======================== question part start =====================*/
+#question {
+  padding: 135px 0 128px 0;
+  background: white;
+}
+#question .question_wrapper {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 109px;
+       column-gap: 109px;
+}
+#question .question_wrapper .question_contant {
+  width: 332px;
+}
+#question .question_wrapper .question_contant h3 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #282938;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+#question .question_wrapper .question_contant a {
+  color: #2405F2;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#question .question_main {
+  width: 846px;
+}
+#question .question_main .question_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-bottom: 2px solid #ECECF1;
+  padding: 32px 0;
+}
+#question .question_main .question_item:last-child {
+  border-bottom: none;
+}
+#question .question_main .question_item .question_info {
+  display: flex;
+  -moz-column-gap: 53px;
+       column-gap: 53px;
+}
+#question .question_main .question_item .question_info .question_number span {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  color: #2405F2;
+}
+#question .question_main .question_item .question_info .question_details h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #282938;
+  line-height: 140%;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+#question .question_main .question_item .question_info .question_details p {
+  width: 624px;
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+  padding: 16px 25px 0 0;
+}
+#question .question_main .question_item .question_icon i {
+  font-size: 18px;
+  color: #282938;
+  opacity: 0.7;
+  line-height: 150%;
+}
+
+/*======================== question part end =====================*/
+/*======================== about part end =====================*/
+/*======================== about part end =====================*//*# sourceMappingURL=style.css.map */

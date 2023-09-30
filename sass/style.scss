@@ -787,5 +787,136 @@ h1 h2 h3 h4 h5 h6 p{
     }
 }
 /*======================== blog part end =====================*/
-/*======================== inquiry part end =====================*/
-/*======================== inquiry part end =====================*/
+/*======================== lets part start =====================*/
+#lets{
+    padding-top: 100px;
+    margin-top: 128px;
+    background: $maincolor;
+    .lets_contant_wrapper{
+        display: flex;
+        justify-content: left;
+        column-gap: 260px;
+        .lets_logo_contant{
+            .lets_logo{
+                width: 156px;
+                height: 38px;
+                margin-bottom: 22px;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            p{
+                width: 399px;
+                color: $white;
+                @include pera;
+            }
+        }
+        .lets_let_contant{
+            h2{
+                font-size: 48px;
+                font-weight: 600;
+                color: $white;
+                text-transform: capitalize;
+                line-height: 150%;
+                margin-bottom: 14px;
+            }
+            p{
+                width: 399px;
+                color: $white;
+                margin-bottom: 28px;
+                @include pera;
+            }
+            .lets_icons{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                column-gap: 26px;
+                i{
+                    font-size: 22px;
+                    color: $white;
+                }
+            }
+        }
+    }
+    .lets_contact{
+        width: 517px;
+        background: $hover;
+        padding:18px 37px 16px 37px;
+        .lets_contact_wrapper{
+            display: flex;
+            justify-content: left;
+            column-gap: 29px;
+            .lets_email{
+                h4{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: $black;
+                    text-transform: capitalize;
+                    line-height: 140%;
+                    margin-bottom: 2px;
+                }
+                p{
+                    color: $black;
+                    @include pera;
+                }
+            }
+            .lets_phone{
+                h4{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: $black;
+                    text-transform: capitalize;
+                    line-height: 140%;
+                    margin-bottom: 2px;
+                }
+                p{
+                    color: $black;
+                    @include pera;
+                }
+            }
+        }
+    }
+}
+/*======================== lets part end =====================*/
+/*======================== footer part start =====================*/
+#foot{
+    padding: 32px;
+    background: $white;
+    .foot_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .lets_copy{
+            a{
+                font-size: 16px;
+                font-weight: 500;
+                color: $black;
+                text-transform: capitalize;
+                cursor: pointer;
+                line-height: 140%;
+            }
+        }
+        .lets_nav_item{
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 32px;
+                li{
+                    a{
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: $black;
+                        text-transform: capitalize;
+                        cursor: pointer;
+                        line-height: 140%;
+                    }
+                }
+            }
+        }
+    }
+}
+/*======================== footer part end =====================*/

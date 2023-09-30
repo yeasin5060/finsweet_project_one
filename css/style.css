@@ -835,5 +835,141 @@ h1 h2 h3 h4 h5 h6 p {
 }
 
 /*======================== blog part end =====================*/
-/*======================== inquiry part end =====================*/
-/*======================== inquiry part end =====================*//*# sourceMappingURL=style.css.map */
+/*======================== lets part start =====================*/
+#lets {
+  padding-top: 100px;
+  margin-top: 128px;
+  background: #1C1E53;
+}
+#lets .lets_contant_wrapper {
+  display: flex;
+  justify-content: left;
+  -moz-column-gap: 260px;
+       column-gap: 260px;
+}
+#lets .lets_contant_wrapper .lets_logo_contant .lets_logo {
+  width: 156px;
+  height: 38px;
+  margin-bottom: 22px;
+  overflow: hidden;
+}
+#lets .lets_contant_wrapper .lets_logo_contant .lets_logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#lets .lets_contant_wrapper .lets_logo_contant p {
+  width: 399px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#lets .lets_contant_wrapper .lets_let_contant h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  line-height: 150%;
+  margin-bottom: 14px;
+}
+#lets .lets_contant_wrapper .lets_let_contant p {
+  width: 399px;
+  color: white;
+  margin-bottom: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#lets .lets_contant_wrapper .lets_let_contant .lets_icons {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  -moz-column-gap: 26px;
+       column-gap: 26px;
+}
+#lets .lets_contant_wrapper .lets_let_contant .lets_icons i {
+  font-size: 22px;
+  color: white;
+}
+#lets .lets_contact {
+  width: 517px;
+  background: #FCD980;
+  padding: 18px 37px 16px 37px;
+}
+#lets .lets_contact .lets_contact_wrapper {
+  display: flex;
+  justify-content: left;
+  -moz-column-gap: 29px;
+       column-gap: 29px;
+}
+#lets .lets_contact .lets_contact_wrapper .lets_email h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #282938;
+  text-transform: capitalize;
+  line-height: 140%;
+  margin-bottom: 2px;
+}
+#lets .lets_contact .lets_contact_wrapper .lets_email p {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#lets .lets_contact .lets_contact_wrapper .lets_phone h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #282938;
+  text-transform: capitalize;
+  line-height: 140%;
+  margin-bottom: 2px;
+}
+#lets .lets_contact .lets_contact_wrapper .lets_phone p {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+
+/*======================== lets part end =====================*/
+/*======================== footer part start =====================*/
+#foot {
+  padding: 32px;
+  background: white;
+}
+#foot .foot_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#foot .foot_wrapper .lets_copy a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  text-transform: capitalize;
+  cursor: pointer;
+  line-height: 140%;
+}
+#foot .foot_wrapper .lets_nav_item ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+#foot .foot_wrapper .lets_nav_item ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  text-transform: capitalize;
+  cursor: pointer;
+  line-height: 140%;
+}
+
+/*======================== footer part end =====================*//*# sourceMappingURL=style.css.map */

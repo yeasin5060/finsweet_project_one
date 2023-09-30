@@ -643,5 +643,197 @@ h1 h2 h3 h4 h5 h6 p {
 }
 
 /*======================== question part end =====================*/
-/*======================== about part end =====================*/
-/*======================== about part end =====================*//*# sourceMappingURL=style.css.map */
+/*======================== inquiry part end =====================*/
+#inquiry {
+  margin-bottom: 128px;
+}
+#inquiry .inquiry_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#inquiry .inquiry_wrapper .inquiry_image {
+  width: 656px;
+  height: 691px;
+  overflow: hidden;
+  position: relative;
+}
+#inquiry .inquiry_wrapper .inquiry_image picture {
+  width: inherit;
+  height: inherit;
+}
+#inquiry .inquiry_wrapper .inquiry_image picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#inquiry .inquiry_wrapper .inquiry_image .inquiry_linear {
+  position: absolute;
+  width: 100%;
+  height: 1005;
+  left: 0;
+  top: 0;
+  background: rgba(28, 30, 83, 0.5);
+  padding: 96px 96px 261px 96px;
+}
+#inquiry .inquiry_wrapper .inquiry_image .inquiry_linear h2 {
+  width: 464px;
+  font-size: 54px;
+  font-weight: 600;
+  color: white;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+#inquiry .inquiry_wrapper .inquiry_image .inquiry_linear p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#inquiry .inquiry_wrapper .inquiry_user {
+  width: 624px;
+  height: 691px;
+  background: #1C1E53;
+  padding: 96px 96px 48px 96px;
+}
+#inquiry .inquiry_wrapper .inquiry_user h4 {
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+#inquiry .inquiry_wrapper .inquiry_user p {
+  width: 332px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+#inquiry .inquiry_wrapper .inquiry_user form input {
+  width: 100%;
+  height: 64px;
+  border: 1px solid rgba(225, 225, 225, 0.05);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background: transparent;
+  padding: 18px 32px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+#inquiry .inquiry_wrapper .inquiry_user form button {
+  width: 100%;
+  height: 64px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  line-height: 140%;
+  text-transform: capitalize;
+  background: transparent;
+  border: 1px solid #282938;
+  border-radius: 41px;
+}
+#inquiry .inquiry_wrapper .inquiry_user form button:hover {
+  background: #FCD980;
+  color: white;
+  border: none;
+}
+#inquiry .inquiry_wrapper .inquiry_user a {
+  margin-top: 24px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  line-height: 140%;
+  text-transform: capitalize;
+}
+#inquiry .inquiry_wrapper .inquiry_user a i {
+  color: white;
+  margin-left: 16px;
+}
+
+/*======================== inquiry part end =====================*/
+/*======================== blog part start =====================*/
+#blog .blog_heading h2 {
+  margin-bottom: 64px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+#blog .blog_contant_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+#blog .blog_contant_wrapper .blog_contant {
+  width: 405px;
+  background: white;
+}
+#blog .blog_contant_wrapper .blog_contant .blog_image {
+  width: 100%;
+  height: 285px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+#blog .blog_contant_wrapper .blog_contant .blog_image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#blog .blog_contant_wrapper .blog_contant span {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#blog .blog_contant_wrapper .blog_contant h4 {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+#blog .blog_contant_wrapper .blog_contant p {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: capitalize;
+}
+#blog .blog_contant_wrapper .blog_contant a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #282938;
+  cursor: pointer;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+#blog .blog_contant_wrapper .blog_contant a i {
+  color: #282938;
+  margin-left: 16px;
+}
+
+/*======================== blog part end =====================*/
+/*======================== inquiry part end =====================*/
+/*======================== inquiry part end =====================*//*# sourceMappingURL=style.css.map */
